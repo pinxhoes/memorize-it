@@ -5,10 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da5bda1c-15c2-4481-ace4-6ade20395c9a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/memorygame/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/memorygame/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-vite-ts/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-vite-ts/frontend-vite-ts.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-vite-ts/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-vite-ts/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-vite-ts/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-vite-ts/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-vite-ts/src/counter.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-vite-ts/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-vite-ts/src/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-vite-ts/src/typescript.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-vite-ts/src/vite-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-vite-ts/tsconfig.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +36,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="backend" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -35,8 +51,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Vue Composition API Component" />
         <option value="Class" />
       </list>
     </option>
@@ -60,6 +77,7 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "Gradle.backend [:Main.main()].executor": "Run",
+    "Gradle.backend [:com.memorygame.Main.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -74,11 +92,23 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\dev\\src\\scratch\\memorize-it\\frontend-vite-ts\\node_modules\\typescript\\lib",
+    "npm.dev (1).executor": "Run",
+    "npm.dev.executor": "Run",
+    "ts.external.directory.path": "C:\\dev\\src\\scratch\\memorize-it\\vite-vue-client\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "vue.recent.templates": [
+      "Vue Composition API Component"
+    ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\src\scratch\memorize-it\frontend-vite-ts\src\ws" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.memorygame.Main" />
       <module name="backend.main" />
@@ -92,8 +122,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/vite-vue-client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/frontend-vite-ts/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev (1)" />
+        <item itemvalue="npm.dev" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -115,7 +167,7 @@
       <option name="presentableId" value="Default" />
       <updated>1742386658600</updated>
       <workItem from="1742386660618" duration="10086000" />
-      <workItem from="1742412875358" duration="471000" />
+      <workItem from="1742412875358" duration="3749000" />
     </task>
     <servers />
   </component>
