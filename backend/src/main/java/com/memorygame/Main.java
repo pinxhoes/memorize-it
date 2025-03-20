@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         var app = Javalin.create(cfg -> cfg.bundledPlugins
                         .enableCors(cors -> cors
-                                .addRule(it -> it.allowHost("http://localhost:5173"))))
+                                .addRule(it -> it.allowHost("http://localhost:5173", "http://localhost:63342"))))
 
                 .get("/api/cards", ctx -> {
                     List<Card> cards = generateCards();

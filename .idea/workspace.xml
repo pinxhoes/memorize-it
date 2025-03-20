@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da5bda1c-15c2-4481-ace4-6ade20395c9a" name="Changes" comment="create Card in backend" />
+    <list default="true" id="da5bda1c-15c2-4481-ace4-6ade20395c9a" name="Changes" comment="create Card in backend">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/memorygame/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/memorygame/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/memorygame/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/memorygame/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,9 +34,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -55,6 +59,7 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "Gradle.backend [:Main.main()].executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
@@ -103,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1742386658600</updated>
-      <workItem from="1742386660618" duration="10220000" />
+      <workItem from="1742386660618" duration="14470000" />
     </task>
     <task id="LOCAL-00001" summary="create Card in backend">
       <option name="closed" value="true" />

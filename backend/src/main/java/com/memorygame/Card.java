@@ -1,8 +1,8 @@
 package com.memorygame;
 
 public class Card {
-    private int value;
-    private String id;
+    private final int value;
+    private final String id;
     private int row;
     private int col;
     private boolean matched = false;
