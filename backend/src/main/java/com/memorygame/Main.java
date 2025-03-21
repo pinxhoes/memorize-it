@@ -1,7 +1,10 @@
 package com.memorygame;
 
 import io.javalin.Javalin;
-import java.util.*;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,8 +16,12 @@ public class Main {
                     List<Card> cards = generateCards();
                     ctx.json(cards);
                 })
+                //websockets
+                .ws("/ws/connect", new WsHandler())
                 .start(8080);
+
     }
+
 
     private static List<Card> generateCards() {
         List<Card> cards = new ArrayList<>();

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/memorize-it.iml" filepath="$PROJECT_DIR$/.idea/memorize-it.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vite-vue-client/vite-vue-client.iml" filepath="$PROJECT_DIR$/vite-vue-client/vite-vue-client.iml" />
     </modules>
   </component>
 </project>

@@ -4,9 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da5bda1c-15c2-4481-ace4-6ade20395c9a" name="Changes" comment="create Card in backend">
+    <list default="true" id="da5bda1c-15c2-4481-ace4-6ade20395c9a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/memorygame/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/memorygame/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-vite-ts/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-vite-ts/frontend-vite-ts.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-vite-ts/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-vite-ts/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-vite-ts/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-vite-ts/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-vite-ts/src/counter.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-vite-ts/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-vite-ts/src/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-vite-ts/src/typescript.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-vite-ts/src/vite-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-vite-ts/tsconfig.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +36,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="backend" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -36,6 +54,9 @@
         <option value="Class" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Vue Composition API Component" />
+        <option value="Class" />
         <option value="CSS File" />
       </list>
     </option>
@@ -43,10 +64,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2uXEjy1lSJUanlniyEJhxPngiCf" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -59,21 +80,38 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "Gradle.backend [:Main.main()].executor": "Run",
-    "JavaScript Debug.index.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "vite-websockets",
+    "ignore.virus.scanning.warn.message": "true",
+    "ignore_missing_gitignore": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/stephi/Documents/workspace",
+    "last_opened_file_path": "C:/dev/src/scratch/memorize-it",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
+    "npm.dev (1).executor": "Run",
+    "npm.dev.executor": "Run",
+    "ts.external.directory.path": "C:\\dev\\src\\scratch\\memorize-it\\vite-vue-client\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "vue.recent.templates": [
+      "Vue Composition API Component"
+    ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\src\scratch\memorize-it\frontend-vite-ts\src\ws" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.memorygame.Main" />
       <module name="backend.main" />
@@ -87,8 +125,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/vite-vue-client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/frontend-vite-ts/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev (1)" />
+        <item itemvalue="npm.dev" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -96,8 +156,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
       </set>
     </attachedChunks>
   </component>
@@ -118,6 +178,7 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1742398120860</updated>
+      <workItem from="1742412875358" duration="3749000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
